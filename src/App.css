@@ -1,0 +1,94 @@
+
+ul {
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ul{
+  background-color: black;
+  height: 100px;
+}
+.logo{
+  margin: 15px;
+  margin-left: 40px;
+}
+.lineas{
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  max-height: 40;
+}
+h1{
+  margin: 0;
+  margin-left: 40px;
+  font-weight: 800;
+}
+.caja{
+  
+  color: black;
+  border: 5px solid black;
+  height: 350px;
+  width: 300px;
+  margin-right: 20px;
+  margin-top: 20px;
+  transition:0.6s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.caja:hover{
+  background-color: black;
+  color: white;
+}
+.skate{
+  width: 300px;
+  filter:grayscale(100%);
+  transition:0.6s;
+-webkit-transition: .6s;
+-moz-transition: .6s;
+}
+.skate:hover{
+  filter:grayscale(0%);
+  opacity:1;
+  
+  }
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.titulo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
+.product{
+  border: 5px solid black;
+}
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.h3{
+  border: 1px solid black;
+  margin-left: 40px;
+}
+.h3-2{
+  border: 1px solid black;
+  margin-left: 40px;
+  background-color: black;
+  color: white;
+  height: 60PX;
+  display: flex;
+  align-items: CENTER;
+  justify-content: center;
+}
